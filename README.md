@@ -1,0 +1,1 @@
+# textlint-github-actions-sample

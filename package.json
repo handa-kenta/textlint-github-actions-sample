@@ -1,0 +1,24 @@
+{
+  "name": "textlint-github-actions-sample",
+  "scripts": {
+    "textlint": "textlint -f pretty-error docs/"
+  },
+  "description": "A writing environment watched by textlint & prh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kenta HANDA<handa.kenta@isid.co.jp>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handa-kenta/textlint-github-actions-sample"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "textlint": "^11.9.1",
+    "textlint-rule-date-weekday-mismatch": "^1.0.5",
+    "textlint-rule-ja-no-redundant-expression": "^4.0.0",
+    "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^6.0.0",
+    "textlint-rule-preset-jtf-style": "^2.3.11",
+    "textlint-rule-prh": "^5.3.0"
+  }
+}
